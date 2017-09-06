@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1EBFABBF0791EF2E2D6C05E8 /* Pods_galderma2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D2E957A7F2FB3CB6BDA85 /* Pods_galderma2017.framework */; };
+		561A89AA1F58F98400A759E9 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A89A91F58F98400A759E9 /* Baby.swift */; };
+		561A89AE1F58FB2900A759E9 /* BabyGlass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A89AD1F58FB2900A759E9 /* BabyGlass1.swift */; };
+		561A89B01F58FB4C00A759E9 /* BabyGlass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A89AF1F58FB4C00A759E9 /* BabyGlass2.swift */; };
+		561A89B21F58FB7100A759E9 /* BabyMilk1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A89B11F58FB7100A759E9 /* BabyMilk1.swift */; };
+		561A89B41F58FB8600A759E9 /* BabyMilk2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A89B31F58FB8600A759E9 /* BabyMilk2.swift */; };
 		562D6BAE1E47C6AA005409EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D6BAD1E47C6AA005409EA /* AppDelegate.swift */; };
 		562D6BB31E47C6AA005409EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562D6BB11E47C6AA005409EA /* Main.storyboard */; };
 		562D6BB61E47C6AA005409EA /* galderma2017.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 562D6BB41E47C6AA005409EA /* galderma2017.xcdatamodeld */; };
@@ -25,14 +30,15 @@
 		562D6BF41E47E9E2005409EA /* P1UnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D6BF31E47E9E2005409EA /* P1UnoViewController.swift */; };
 		562F74BD1E7F92C900C4F0D5 /* Barra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F74BC1E7F92C900C4F0D5 /* Barra.swift */; };
 		562F74BF1E7F93EE00C4F0D5 /* BarraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F74BE1E7F93EE00C4F0D5 /* BarraView.swift */; };
+		5633F7051F59CF2900FAC015 /* whats1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5633F7031F59CF2900FAC015 /* whats1.mp3 */; };
+		5633F7061F59CF2900FAC015 /* whats2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5633F7041F59CF2900FAC015 /* whats2.mp3 */; };
+		563CCB101F589EEF000CD383 /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 563CCB0F1F589EEF000CD383 /* sonido.mp3 */; };
 		564B02A71EA98FF900D8DE65 /* Producto8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B02A61EA98FF900D8DE65 /* Producto8ViewController.swift */; };
 		564B02A91EA9918200D8DE65 /* Producto8Slide2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B02A81EA9918200D8DE65 /* Producto8Slide2ViewController.swift */; };
 		564B02AB1EA9919800D8DE65 /* Producto8Slide3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B02AA1EA9919800D8DE65 /* Producto8Slide3ViewController.swift */; };
 		564E6ACB1E82BE790011CC48 /* Producto2Slide2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6ACA1E82BE790011CC48 /* Producto2Slide2ViewController.swift */; };
 		564E6ACD1E82C0C40011CC48 /* ProductoPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6ACC1E82C0C40011CC48 /* ProductoPopViewController.swift */; };
-		564E6ACF1E82C2560011CC48 /* Producto3Slide2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6ACE1E82C2560011CC48 /* Producto3Slide2ViewController.swift */; };
 		564E6AD11E82C5AD0011CC48 /* Producto3Slide3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6AD01E82C5AD0011CC48 /* Producto3Slide3ViewController.swift */; };
-		564E6AD31E82C5D60011CC48 /* Producto3Slide4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6AD21E82C5D60011CC48 /* Producto3Slide4ViewController.swift */; };
 		564E6AD51E82C5F30011CC48 /* Producto3Slide3Pop1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6AD41E82C5F30011CC48 /* Producto3Slide3Pop1ViewController.swift */; };
 		564E6AD71E82C6000011CC48 /* Producto3Slide3Pop2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6AD61E82C6000011CC48 /* Producto3Slide3Pop2ViewController.swift */; };
 		564E6AD91E82C60B0011CC48 /* Producto3Slide3Pop3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564E6AD81E82C60B0011CC48 /* Producto3Slide3Pop3ViewController.swift */; };
@@ -77,6 +83,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		561A89A91F58F98400A759E9 /* Baby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
+		561A89AD1F58FB2900A759E9 /* BabyGlass1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyGlass1.swift; sourceTree = "<group>"; };
+		561A89AF1F58FB4C00A759E9 /* BabyGlass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyGlass2.swift; sourceTree = "<group>"; };
+		561A89B11F58FB7100A759E9 /* BabyMilk1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyMilk1.swift; sourceTree = "<group>"; };
+		561A89B31F58FB8600A759E9 /* BabyMilk2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyMilk2.swift; sourceTree = "<group>"; };
 		562D6BAA1E47C6AA005409EA /* galderma2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galderma2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562D6BAD1E47C6AA005409EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562D6BB21E47C6AA005409EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,14 +113,15 @@
 		562D6BF31E47E9E2005409EA /* P1UnoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1UnoViewController.swift; sourceTree = "<group>"; };
 		562F74BC1E7F92C900C4F0D5 /* Barra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barra.swift; sourceTree = "<group>"; };
 		562F74BE1E7F93EE00C4F0D5 /* BarraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarraView.swift; sourceTree = "<group>"; };
+		5633F7031F59CF2900FAC015 /* whats1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whats1.mp3; sourceTree = "<group>"; };
+		5633F7041F59CF2900FAC015 /* whats2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whats2.mp3; sourceTree = "<group>"; };
+		563CCB0F1F589EEF000CD383 /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonido.mp3; sourceTree = "<group>"; };
 		564B02A61EA98FF900D8DE65 /* Producto8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto8ViewController.swift; sourceTree = "<group>"; };
 		564B02A81EA9918200D8DE65 /* Producto8Slide2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto8Slide2ViewController.swift; sourceTree = "<group>"; };
 		564B02AA1EA9919800D8DE65 /* Producto8Slide3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto8Slide3ViewController.swift; sourceTree = "<group>"; };
 		564E6ACA1E82BE790011CC48 /* Producto2Slide2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto2Slide2ViewController.swift; sourceTree = "<group>"; };
 		564E6ACC1E82C0C40011CC48 /* ProductoPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductoPopViewController.swift; sourceTree = "<group>"; };
-		564E6ACE1E82C2560011CC48 /* Producto3Slide2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto3Slide2ViewController.swift; sourceTree = "<group>"; };
 		564E6AD01E82C5AD0011CC48 /* Producto3Slide3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto3Slide3ViewController.swift; sourceTree = "<group>"; };
-		564E6AD21E82C5D60011CC48 /* Producto3Slide4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto3Slide4ViewController.swift; sourceTree = "<group>"; };
 		564E6AD41E82C5F30011CC48 /* Producto3Slide3Pop1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto3Slide3Pop1ViewController.swift; sourceTree = "<group>"; };
 		564E6AD61E82C6000011CC48 /* Producto3Slide3Pop2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto3Slide3Pop2ViewController.swift; sourceTree = "<group>"; };
 		564E6AD81E82C60B0011CC48 /* Producto3Slide3Pop3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Producto3Slide3Pop3ViewController.swift; sourceTree = "<group>"; };
@@ -191,13 +203,21 @@
 		562D6BAC1E47C6AA005409EA /* galderma2017 */ = {
 			isa = PBXGroup;
 			children = (
+				563CCB0F1F589EEF000CD383 /* sonido.mp3 */,
+				5633F7031F59CF2900FAC015 /* whats1.mp3 */,
+				5633F7041F59CF2900FAC015 /* whats2.mp3 */,
 				56920CA01EB9502C00A41D58 /* pdf */,
 				564B02A51EA98FC000D8DE65 /* Producto8 */,
 				56F374FF1EA4417800C563A6 /* Producto7 */,
 				56F374F61EA43A6100C563A6 /* Producto6 */,
 				56F374EF1EA439D500C563A6 /* Producto5 */,
 				562F74BC1E7F92C900C4F0D5 /* Barra.swift */,
+				561A89A91F58F98400A759E9 /* Baby.swift */,
+				561A89AD1F58FB2900A759E9 /* BabyGlass1.swift */,
+				561A89AF1F58FB4C00A759E9 /* BabyGlass2.swift */,
 				562F74BE1E7F93EE00C4F0D5 /* BarraView.swift */,
+				561A89B11F58FB7100A759E9 /* BabyMilk1.swift */,
+				561A89B31F58FB8600A759E9 /* BabyMilk2.swift */,
 				565387351EA7173600B27FD4 /* Volumen.swift */,
 				565387371EA717B400B27FD4 /* VolumenView.swift */,
 				56F374EA1EA42EC600C563A6 /* Producto4 */,
@@ -279,9 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				562D6BF11E47E977005409EA /* Producto3ViewController.swift */,
-				564E6ACE1E82C2560011CC48 /* Producto3Slide2ViewController.swift */,
 				564E6AD01E82C5AD0011CC48 /* Producto3Slide3ViewController.swift */,
-				564E6AD21E82C5D60011CC48 /* Producto3Slide4ViewController.swift */,
 				564E6AD41E82C5F30011CC48 /* Producto3Slide3Pop1ViewController.swift */,
 				564E6AD61E82C6000011CC48 /* Producto3Slide3Pop2ViewController.swift */,
 				564E6AD81E82C60B0011CC48 /* Producto3Slide3Pop3ViewController.swift */,
@@ -438,7 +456,7 @@
 				TargetAttributes = {
 					562D6BA91E47C6AA005409EA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9YRZ67W2T5;
+						DevelopmentTeam = 2Y7A6GRU4X;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -482,9 +500,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				562D6BBB1E47C6AA005409EA /* LaunchScreen.storyboard in Resources */,
+				5633F7061F59CF2900FAC015 /* whats2.mp3 in Resources */,
+				5633F7051F59CF2900FAC015 /* whats1.mp3 in Resources */,
 				562D6BB81E47C6AA005409EA /* Assets.xcassets in Resources */,
 				56920CA21EB9504100A41D58 /* anexo.pdf in Resources */,
 				562D6BDF1E47C6C6005409EA /* Podfile in Resources */,
+				563CCB101F589EEF000CD383 /* sonido.mp3 in Resources */,
 				562D6BB31E47C6AA005409EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,8 +580,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				564B02A91EA9918200D8DE65 /* Producto8Slide2ViewController.swift in Sources */,
-				564E6AD31E82C5D60011CC48 /* Producto3Slide4ViewController.swift in Sources */,
 				56F374FA1EA43AA200C563A6 /* Producto6Slide1ViewController.swift in Sources */,
+				561A89AA1F58F98400A759E9 /* Baby.swift in Sources */,
 				56F374F31EA439FC00C563A6 /* Producto5Slide2ViewController.swift in Sources */,
 				565387361EA7173600B27FD4 /* Volumen.swift in Sources */,
 				56F374F51EA43A0B00C563A6 /* Producto5Slide3ViewController.swift in Sources */,
@@ -568,18 +589,22 @@
 				56F374F81EA43A8C00C563A6 /* Producto6ViewController.swift in Sources */,
 				56F374FC1EA43AAE00C563A6 /* Producto6Slide2ViewController.swift in Sources */,
 				56F374F11EA439EE00C563A6 /* Producto5ViewController.swift in Sources */,
+				561A89AE1F58FB2900A759E9 /* BabyGlass1.swift in Sources */,
 				562D6BEC1E47DD9E005409EA /* ViewController.swift in Sources */,
 				56F375011EA441A700C563A6 /* Producto7ViewController.swift in Sources */,
 				562D6BB61E47C6AA005409EA /* galderma2017.xcdatamodeld in Sources */,
 				564E6ADB1E82C6140011CC48 /* Producto3Slide3Pop4ViewController.swift in Sources */,
+				561A89B41F58FB8600A759E9 /* BabyMilk2.swift in Sources */,
 				56F375031EA441C600C563A6 /* Producto7Slide1Producto7ViewController.swift in Sources */,
 				562D6BF21E47E977005409EA /* Producto3ViewController.swift in Sources */,
 				562D6BEE1E47E541005409EA /* Producto1ViewController.swift in Sources */,
+				561A89B21F58FB7100A759E9 /* BabyMilk1.swift in Sources */,
 				564B02AB1EA9919800D8DE65 /* Producto8Slide3ViewController.swift in Sources */,
 				56516C751E7E1E530065E384 /* P1Pop2ViewController.swift in Sources */,
 				564E6AD11E82C5AD0011CC48 /* Producto3Slide3ViewController.swift in Sources */,
 				562D6BE61E47D54A005409EA /* PrincipalViewController.swift in Sources */,
 				56F374EE1EA431E700C563A6 /* Producto4Slide2ViewController.swift in Sources */,
+				561A89B01F58FB4C00A759E9 /* BabyGlass2.swift in Sources */,
 				562D6BAE1E47C6AA005409EA /* AppDelegate.swift in Sources */,
 				56F375071EA441E500C563A6 /* Producto7Slide3ViewController.swift in Sources */,
 				564E6ACD1E82C0C40011CC48 /* ProductoPopViewController.swift in Sources */,
@@ -596,7 +621,6 @@
 				56920CA41EB9550600A41D58 /* PdfViewController.swift in Sources */,
 				56F375051EA441DB00C563A6 /* Producto7Slide2ViewController.swift in Sources */,
 				564E6AD91E82C60B0011CC48 /* Producto3Slide3Pop3ViewController.swift in Sources */,
-				564E6ACF1E82C2560011CC48 /* Producto3Slide2ViewController.swift in Sources */,
 				562D6BF01E47E961005409EA /* Producto2ViewController.swift in Sources */,
 				56516C731E7E1E400065E384 /* P1Pop1ViewController.swift in Sources */,
 				56F374FE1EA43ABE00C563A6 /* Producto6Slide3ViewController.swift in Sources */,
@@ -754,9 +778,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconCu;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9YRZ67W2T5;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
 				INFOPLIST_FILE = galderma2017/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = concorSwiftSpring.com.RentalApps.PharmaInvesti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -773,9 +797,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconCu;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9YRZ67W2T5;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
 				INFOPLIST_FILE = galderma2017/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = concorSwiftSpring.com.RentalApps.PharmaInvesti;
 				PRODUCT_NAME = "$(TARGET_NAME)";

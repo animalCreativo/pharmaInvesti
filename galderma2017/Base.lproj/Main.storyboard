@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wXA-Ez-Mle">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wXA-Ez-Mle">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -390,9 +389,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Tjg-bW-u5C" appends="YES" id="irC-Xh-QOw"/>
-                                </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillete" translatesAutoresizingMaskIntoConstraints="NO" id="nSj-w8-Iqy">
                                 <rect key="frame" x="807" y="700" width="217" height="68"/>
@@ -431,32 +427,70 @@
                                 <rect key="frame" x="20" y="38" width="131" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Girl" translatesAutoresizingMaskIntoConstraints="NO" id="yr4-gq-7Z7" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="664" y="210" width="60" height="59"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Img2" translatesAutoresizingMaskIntoConstraints="NO" id="yr4-gq-7Z7" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="872" y="89" width="124" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Man" translatesAutoresizingMaskIntoConstraints="NO" id="pqW-f6-3LD" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="393" y="301" width="60" height="59"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Producto" translatesAutoresizingMaskIntoConstraints="NO" id="pqW-f6-3LD" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="553" y="363" width="154" height="275"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Nube1" translatesAutoresizingMaskIntoConstraints="NO" id="2al-B8-jQS" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="400" y="187" width="256" height="79"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Btn" translatesAutoresizingMaskIntoConstraints="NO" id="Ejg-V4-m2t" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="719" y="609" width="200" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Img1" translatesAutoresizingMaskIntoConstraints="NO" id="2al-B8-jQS" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="492" y="252" width="86" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Texto1" translatesAutoresizingMaskIntoConstraints="NO" id="aCE-Ot-BHj" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="408" y="260" width="123" height="19"/>
+                                <rect key="frame" x="722" y="386" width="185" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Nube2" translatesAutoresizingMaskIntoConstraints="NO" id="Fmy-p5-nQG" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="454" y="308" width="254" height="81"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Not1" translatesAutoresizingMaskIntoConstraints="NO" id="8v5-r7-zvi" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="200" y="578" width="197" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Not2" translatesAutoresizingMaskIntoConstraints="NO" id="1mT-vL-Ypt" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="200" y="502" width="197" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Not3" translatesAutoresizingMaskIntoConstraints="NO" id="3mO-pr-Yf4" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="200" y="426" width="231" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Not4" translatesAutoresizingMaskIntoConstraints="NO" id="NiR-GX-rrp" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="200" y="350" width="197" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="Fmy-p5-nQG" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="574" y="134" width="368" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Texto2" translatesAutoresizingMaskIntoConstraints="NO" id="DAH-qh-9BU" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="581" y="388" width="120" height="19"/>
+                                <rect key="frame" x="722" y="482" width="238" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circleWhite21" translatesAutoresizingMaskIntoConstraints="NO" id="OHQ-E3-fRu">
-                                <rect key="frame" x="507" y="718" width="43" height="18"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Notificacion" translatesAutoresizingMaskIntoConstraints="NO" id="yqf-sk-r7y" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="205" y="516" width="152" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tth-yE-1DX">
+                                <rect key="frame" x="722" y="608" width="200" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="tzY-zt-3fu" kind="show" animates="NO" id="qGa-F4-t0a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRh-yc-60v">
+                                <rect key="frame" x="127" y="494" width="223" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnNotificacion:" destination="jK0-lG-PKo" eventType="touchUpInside" id="WVj-dz-Iyc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide1Luz" translatesAutoresizingMaskIntoConstraints="NO" id="5jb-J8-Lu6" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="58" y="412" width="375" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -469,26 +503,29 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="hpb-k6-uJc"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="Left" destination="Tjg-bW-u5C" id="kzo-6G-Pyz"/>
+                        <outlet property="alarm" destination="yqf-sk-r7y" id="gBL-nt-sPT"/>
+                        <outlet property="alarmLuz" destination="5jb-J8-Lu6" id="0i5-8L-yEC"/>
+                        <outlet property="btn" destination="tth-yE-1DX" id="Z5T-2E-kXh"/>
                         <outlet property="btnBack" destination="2U6-Eh-HVl" id="N0S-VJ-2mD"/>
+                        <outlet property="btnImg" destination="Ejg-V4-m2t" id="N9R-9D-HxC"/>
                         <outlet property="btnMenu" destination="h96-Ii-yA8" id="jTM-5X-cQc"/>
                         <outlet property="btnMenuSlideRight" destination="Wlr-a1-1ul" id="ahx-gf-Bh9"/>
-                        <outlet property="girl" destination="yr4-gq-7Z7" id="8Ks-lX-dla"/>
-                        <outlet property="man" destination="pqW-f6-3LD" id="QWc-A4-HIx"/>
-                        <outlet property="notGirl" destination="aCE-Ot-BHj" id="D1L-8S-9xz"/>
-                        <outlet property="notMan" destination="DAH-qh-9BU" id="wxh-Ji-JOI"/>
-                        <outlet property="textoGirl" destination="2al-B8-jQS" id="z6A-nw-pBZ"/>
-                        <outlet property="textoMan" destination="Fmy-p5-nQG" id="fwb-VS-OCP"/>
+                        <outlet property="btnNotificacion" destination="HRh-yc-60v" id="H1j-Yu-D1H"/>
+                        <outlet property="img1" destination="yr4-gq-7Z7" id="JEc-jZ-pjA"/>
+                        <outlet property="img2" destination="2al-B8-jQS" id="yWm-3m-G9k"/>
+                        <outlet property="not1" destination="NiR-GX-rrp" id="bXg-z5-dde"/>
+                        <outlet property="not2" destination="3mO-pr-Yf4" id="7fU-X8-6vw"/>
+                        <outlet property="not3" destination="1mT-vL-Ypt" id="PAa-ma-qRN"/>
+                        <outlet property="not4" destination="8v5-r7-zvi" id="s3d-Th-Khb"/>
+                        <outlet property="producto" destination="pqW-f6-3LD" id="emr-7R-4Lt"/>
+                        <outlet property="texto1" destination="aCE-Ot-BHj" id="bPz-nQ-Nqc"/>
+                        <outlet property="texto2" destination="DAH-qh-9BU" id="tyo-zn-Idc"/>
+                        <outlet property="titulo" destination="Fmy-p5-nQG" id="8Yj-jb-Qau"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yhn-JS-NR0" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="Tjg-bW-u5C">
-                    <connections>
-                        <segue destination="umk-y8-7cR" kind="show" animates="NO" id="JMS-is-qqO"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-1888" y="3208"/>
+            <point key="canvasLocation" x="-1888.4765624999998" y="3207.8125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bBK-4C-0nY">
@@ -1263,6 +1300,7 @@
                                 <rect key="frame" x="959" y="27" width="48" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="btnExit:" destination="Xbk-iX-5Gu" eventType="touchUpInside" id="TGW-Wg-aAb"/>
                                     <segue destination="ZaI-Hq-X8b" kind="show" identifier="back" animates="NO" id="WAf-oJ-Z7p"/>
                                 </connections>
                             </button>
@@ -1286,8 +1324,23 @@
                                 <rect key="frame" x="23" y="30" width="122" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prosinaSlide2Producto" translatesAutoresizingMaskIntoConstraints="NO" id="dS5-8M-0vd" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="0.0" y="230" width="443" height="429"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prosinaSlide3FillBtn" translatesAutoresizingMaskIntoConstraints="NO" id="ky8-Ld-YYu" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="242" y="411" width="314" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prosinaSlide3Producto" translatesAutoresizingMaskIntoConstraints="NO" id="dS5-8M-0vd" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="58" y="348" width="242" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGe-cM-hjy">
+                                <rect key="frame" x="300" y="404" width="263" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnSound:" destination="Xbk-iX-5Gu" eventType="touchUpInside" id="PKi-8p-tfz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prosinaSlide3BtnSound" translatesAutoresizingMaskIntoConstraints="NO" id="P9Y-aZ-IO5" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="308" y="432" width="32" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1298,139 +1351,17 @@
                     <connections>
                         <outlet property="botones" destination="zWb-0R-O2i" id="AAa-4g-oWm"/>
                         <outlet property="btnExit" destination="Sa1-63-RU6" id="bB8-Qn-0eK"/>
+                        <outlet property="btnSound" destination="rGe-cM-hjy" id="KEu-1W-znF"/>
                         <outlet property="img" destination="dS5-8M-0vd" id="ls0-YP-Jsq"/>
+                        <outlet property="imgSound" destination="ky8-Ld-YYu" id="2C7-BT-mhB"/>
+                        <outlet property="soundicon" destination="P9Y-aZ-IO5" id="HNw-2R-8Lj"/>
                         <outlet property="texto1" destination="rbz-Pq-ACs" id="BvC-fl-nGU"/>
                         <outlet property="texto2" destination="TVR-it-aV3" id="USv-H6-FyS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bhw-tD-tXW" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1027" y="2309"/>
-        </scene>
-        <!--Producto3 Slide2 View Controller-->
-        <scene sceneID="awQ-CI-Dqk">
-            <objects>
-                <viewController storyboardIdentifier="Producto3Slide2ViewController" id="umk-y8-7cR" customClass="Producto3Slide2ViewController" customModule="galderma2017" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9Bj-HB-4af"/>
-                        <viewControllerLayoutGuide type="bottom" id="0U0-TX-M77"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="LqW-W6-cS2">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide3Fondo" translatesAutoresizingMaskIntoConstraints="NO" id="rBj-wp-4pq">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="vQT-Xx-Wyr" appends="YES" id="Pba-nu-RqZ"/>
-                                </connections>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fillete" translatesAutoresizingMaskIntoConstraints="NO" id="rL3-nC-qPR">
-                                <rect key="frame" x="807" y="700" width="217" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoPharma" translatesAutoresizingMaskIntoConstraints="NO" id="YI1-fx-Wt1">
-                                <rect key="frame" x="881" y="720" width="123" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="esquina2" translatesAutoresizingMaskIntoConstraints="NO" id="f9d-LI-w1Q">
-                                <rect key="frame" x="0.0" y="0.0" width="238" height="148"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btnMenuGris" translatesAutoresizingMaskIntoConstraints="NO" id="zVa-NV-4QX">
-                                <rect key="frame" x="959" y="30" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btnBackGris" translatesAutoresizingMaskIntoConstraints="NO" id="EDc-pY-7Gk">
-                                <rect key="frame" x="30" y="703" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bS4-KC-wup">
-                                <rect key="frame" x="30" y="703" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="MSs-le-C1N" kind="show" animates="NO" id="ilM-cQ-NK3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYe-up-o6J">
-                                <rect key="frame" x="961" y="27" width="46" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoVimax" translatesAutoresizingMaskIntoConstraints="NO" id="0e0-yo-3AP">
-                                <rect key="frame" x="20" y="38" width="131" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide3Btn1" translatesAutoresizingMaskIntoConstraints="NO" id="0Up-k7-SVB" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="221" y="474" width="228" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide3Btn2" translatesAutoresizingMaskIntoConstraints="NO" id="8Eq-XD-nd1" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="221" y="403" width="228" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide3Producto" translatesAutoresizingMaskIntoConstraints="NO" id="5R3-gO-Dpt" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="78" y="329" width="188" height="375"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide3Menta" translatesAutoresizingMaskIntoConstraints="NO" id="JqI-r1-PG4" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="62" y="593" width="148" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide3Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="NR3-YW-9rE" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="78" y="141" width="405" height="168"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJt-vx-369">
-                                <rect key="frame" x="257" y="403" width="192" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="tzY-zt-3fu" kind="show" animates="NO" id="kpL-eh-g8U"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMH-3C-hNd">
-                                <rect key="frame" x="257" y="474" width="192" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="byX-kD-csC" kind="show" animates="NO" id="gLQ-b1-7od"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circleWhite22" translatesAutoresizingMaskIntoConstraints="NO" id="YTV-HZ-ZO7">
-                                <rect key="frame" x="507" y="718" width="43" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="XEB-iT-MiY"/>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" id="LX2-e1-Vbk">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="Vfa-r2-9IF"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="btn1" destination="GJt-vx-369" id="gK6-NB-5ff"/>
-                        <outlet property="btn2" destination="tMH-3C-hNd" id="fKm-QU-Qtt"/>
-                        <outlet property="btnBack" destination="bS4-KC-wup" id="OED-S0-gcP"/>
-                        <outlet property="btnMenu" destination="XEB-iT-MiY" id="WUd-Vi-k3I"/>
-                        <outlet property="btnMenuSlideRight" destination="UYe-up-o6J" id="61S-RU-R9E"/>
-                        <outlet property="imgBtn1" destination="8Eq-XD-nd1" id="vg8-Wo-0Ne"/>
-                        <outlet property="imgBtn2" destination="0Up-k7-SVB" id="bky-V5-pxL"/>
-                        <outlet property="imgMenta" destination="JqI-r1-PG4" id="734-Iz-Fs6"/>
-                        <outlet property="imgProducto" destination="5R3-gO-Dpt" id="1ty-L3-KbE"/>
-                        <outlet property="right" destination="vQT-Xx-Wyr" id="Jdg-5p-fDd"/>
-                        <outlet property="titulo" destination="NR3-YW-9rE" id="vYi-yL-tI7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ayI-Ro-Rqq" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="vQT-Xx-Wyr">
-                    <connections>
-                        <segue destination="jK0-lG-PKo" kind="show" animates="NO" id="sLV-ua-Yaz"/>
-                    </connections>
-                </swipeGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="-1219" y="3248"/>
+            <point key="canvasLocation" x="-1027.1484375" y="2308.59375"/>
         </scene>
         <!--Producto3 Slide3 View Controller-->
         <scene sceneID="BZd-7H-itS">
@@ -1472,7 +1403,7 @@
                                 <rect key="frame" x="961" y="27" width="46" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="umk-y8-7cR" kind="show" animates="NO" id="71e-Jd-lMP"/>
+                                    <segue destination="jK0-lG-PKo" kind="show" animates="NO" id="PY6-uZ-JJu"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoVimax" translatesAutoresizingMaskIntoConstraints="NO" id="zHm-5c-mIy">
@@ -1556,7 +1487,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="66g-EK-LXp" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-525" y="3208"/>
+            <point key="canvasLocation" x="-1027" y="3208"/>
         </scene>
         <!--Producto3 Slide3 Pop1 View Controller-->
         <scene sceneID="bFW-tw-HFr">
@@ -1773,60 +1704,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHf-C4-VG0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="189" y="4052"/>
-        </scene>
-        <!--Producto3 Slide4 View Controller-->
-        <scene sceneID="V5M-w7-OL5">
-            <objects>
-                <viewController id="byX-kD-csC" customClass="Producto3Slide4ViewController" customModule="galderma2017" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9xN-Wa-YV8"/>
-                        <viewControllerLayoutGuide type="bottom" id="f5i-w9-5E7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="sKp-zv-8UQ">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide9Fondo" translatesAutoresizingMaskIntoConstraints="NO" id="lHy-1L-Veh">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btnExit" translatesAutoresizingMaskIntoConstraints="NO" id="gZj-x4-Pjq">
-                                <rect key="frame" x="959" y="30" width="48" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYi-L3-Mee">
-                                <rect key="frame" x="959" y="27" width="48" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="umk-y8-7cR" kind="show" animates="NO" id="ACj-n1-saL"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="esquina2" translatesAutoresizingMaskIntoConstraints="NO" id="PrD-1a-kCo">
-                                <rect key="frame" x="0.0" y="0.0" width="238" height="148"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoVimax" translatesAutoresizingMaskIntoConstraints="NO" id="YNa-OM-fBl">
-                                <rect key="frame" x="20" y="38" width="131" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vimaxSlide9Img" translatesAutoresizingMaskIntoConstraints="NO" id="w0b-bK-qLI" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="72" y="247" width="881" height="275"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="SBO-Su-7Ia"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <connections>
-                        <outlet property="btnExit" destination="jYi-L3-Mee" id="2hr-lq-95t"/>
-                        <outlet property="logo" destination="w0b-bK-qLI" id="OM1-hd-mX7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="q9h-Lc-4j6" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1224" y="4052"/>
         </scene>
         <!--Producto4 Slide2 View Controller-->
         <scene sceneID="DGX-fV-pdW">
@@ -2530,16 +2407,16 @@
                                 <rect key="frame" x="881" y="720" width="123" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide3Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="oYE-e8-Ipx" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="302" y="201" width="431" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circleWhite32" translatesAutoresizingMaskIntoConstraints="NO" id="Vdh-WG-HbP" customClass="SpringImageView" customModule="Spring">
                                 <rect key="frame" x="478" y="735" width="68" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide3Gotas" translatesAutoresizingMaskIntoConstraints="NO" id="P02-4p-ovI" customClass="SpringImageView" customModule="Spring">
                                 <rect key="frame" x="657" y="602" width="90" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide3Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="oYE-e8-Ipx" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="315" y="201" width="404" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2589,6 +2466,48 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CwS-fh-UBN" customClass="BabyMilk1" customModule="galderma2017" customModuleProvider="target">
+                                <rect key="frame" x="320" y="264" width="137" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fUr-S1-Mvg" customClass="BabyMilk2" customModule="galderma2017" customModuleProvider="target">
+                                <rect key="frame" x="515" y="264" width="137" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4TextoImg2" translatesAutoresizingMaskIntoConstraints="NO" id="CUU-N1-e9z" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="549" y="543" width="68" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4TextoImg1" translatesAutoresizingMaskIntoConstraints="NO" id="eHo-6J-abl" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="346" y="543" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal4" translatesAutoresizingMaskIntoConstraints="NO" id="9da-YW-TOS" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="694" y="322" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal3" translatesAutoresizingMaskIntoConstraints="NO" id="iiS-iE-XIU" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="694" y="322" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal2" translatesAutoresizingMaskIntoConstraints="NO" id="6PK-K9-Gy7" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="694" y="322" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal1" translatesAutoresizingMaskIntoConstraints="NO" id="kpn-0N-mRf" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="694" y="322" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal1" translatesAutoresizingMaskIntoConstraints="NO" id="SvF-O3-77w" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="135" y="322" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Footer" translatesAutoresizingMaskIntoConstraints="NO" id="2h4-fG-Lb4" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="256" y="594" width="518" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circleWhite33" translatesAutoresizingMaskIntoConstraints="NO" id="7Jg-cG-jPz" customClass="SpringImageView" customModule="Spring">
                                 <rect key="frame" x="478" y="735" width="68" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2620,16 +2539,12 @@
                                 <rect key="frame" x="881" y="720" width="123" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide4Center" translatesAutoresizingMaskIntoConstraints="NO" id="Xgx-Gv-yne" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="114" y="391" width="797" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide4Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="5O6-4r-05I" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="174" y="256" width="682" height="78"/>
+                                <rect key="frame" x="174" y="166" width="682" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide1Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BiJ-zL-EwN" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="816" y="63" width="172" height="172"/>
+                                <rect key="frame" x="806" y="43" width="172" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2640,8 +2555,17 @@
                     <connections>
                         <outlet property="Right" destination="a7O-B1-bDz" id="oLN-19-4Sr"/>
                         <outlet property="btnExit" destination="Zqy-Ae-kUM" id="8MK-Yr-u40"/>
-                        <outlet property="imgCenter" destination="Xgx-Gv-yne" id="w3t-zh-YEv"/>
+                        <outlet property="cal1" destination="kpn-0N-mRf" id="m1E-mE-zNs"/>
+                        <outlet property="cal1FC" destination="SvF-O3-77w" id="KCL-ab-jj7"/>
+                        <outlet property="cal2" destination="6PK-K9-Gy7" id="XeJ-g0-7jm"/>
+                        <outlet property="cal3" destination="iiS-iE-XIU" id="krd-aT-anz"/>
+                        <outlet property="cal4" destination="9da-YW-TOS" id="Bvl-Wa-xeV"/>
+                        <outlet property="glass1" destination="CwS-fh-UBN" id="lGN-I3-70s"/>
+                        <outlet property="glass2" destination="fUr-S1-Mvg" id="0bj-Gs-KZq"/>
+                        <outlet property="imgCenter" destination="2h4-fG-Lb4" id="XvX-Kj-drG"/>
                         <outlet property="sello" destination="BiJ-zL-EwN" id="1G4-z7-7OY"/>
+                        <outlet property="texto1" destination="eHo-6J-abl" id="Ody-Rn-1CG"/>
+                        <outlet property="texto2" destination="CUU-N1-e9z" id="xzY-TN-ET6"/>
                         <outlet property="titulo" destination="5O6-4r-05I" id="8eN-aS-6qs"/>
                     </connections>
                 </viewController>
@@ -2994,10 +2918,6 @@
                                     <segue destination="wfU-Tk-NfQ" kind="show" animates="NO" id="Uqc-yD-HPB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Img" translatesAutoresizingMaskIntoConstraints="NO" id="NcB-On-G7w" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="106" y="341" width="797" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="esquina2" translatesAutoresizingMaskIntoConstraints="NO" id="013-DB-kZj">
                                 <rect key="frame" x="0.0" y="0.0" width="238" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3015,13 +2935,55 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="JU8-Pg-RKz" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="171" y="207" width="682" height="78"/>
+                                <rect key="frame" x="171" y="143" width="682" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide1Img" translatesAutoresizingMaskIntoConstraints="NO" id="Z9W-X2-uh2" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="841" y="68" width="149" height="149"/>
+                                <rect key="frame" x="807" y="20" width="149" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Footer" translatesAutoresizingMaskIntoConstraints="NO" id="fDB-NR-OYe" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="253" y="577" width="518" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal4" translatesAutoresizingMaskIntoConstraints="NO" id="8jo-yd-UPW" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="770" y="303" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4TextoImg1" translatesAutoresizingMaskIntoConstraints="NO" id="aQI-zE-HBU" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="336" y="536" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal3" translatesAutoresizingMaskIntoConstraints="NO" id="zUk-Ng-ba8" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="770" y="303" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal2" translatesAutoresizingMaskIntoConstraints="NO" id="EWA-nj-lZq" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="770" y="303" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal1" translatesAutoresizingMaskIntoConstraints="NO" id="s5f-mv-3wk" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="770" y="303" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4TextoImg2" translatesAutoresizingMaskIntoConstraints="NO" id="Ag4-1P-cHg" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="594" y="536" width="68" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal1" translatesAutoresizingMaskIntoConstraints="NO" id="4RH-TK-HPu" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="136" y="303" width="126" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="08G-0I-u8P" customClass="BabyGlass1" customModule="galderma2017" customModuleProvider="target">
+                                <rect key="frame" x="316" y="281" width="194" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V7P-YO-BND" customClass="BabyGlass2" customModule="galderma2017" customModuleProvider="target">
+                                <rect key="frame" x="531" y="281" width="194" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -3030,8 +2992,17 @@
                     <connections>
                         <outlet property="Right" destination="Hvf-pb-bIn" id="0Lt-7b-e3Y"/>
                         <outlet property="btnExit" destination="5G1-KB-ErV" id="N1A-oh-Qh1"/>
-                        <outlet property="imgCenter" destination="NcB-On-G7w" id="CBY-JY-S80"/>
+                        <outlet property="cal1" destination="s5f-mv-3wk" id="f1W-le-wCx"/>
+                        <outlet property="cal1FC" destination="4RH-TK-HPu" id="I7m-nx-XXG"/>
+                        <outlet property="cal2" destination="EWA-nj-lZq" id="nqM-El-pBy"/>
+                        <outlet property="cal3" destination="zUk-Ng-ba8" id="Fv8-IB-LVE"/>
+                        <outlet property="cal4" destination="8jo-yd-UPW" id="KOP-CZ-H31"/>
+                        <outlet property="glass1" destination="08G-0I-u8P" id="kMn-Dz-oUj"/>
+                        <outlet property="glass2" destination="V7P-YO-BND" id="a43-ae-0Zi"/>
+                        <outlet property="imgCenter" destination="fDB-NR-OYe" id="XZN-Xx-XLL"/>
                         <outlet property="sello" destination="Z9W-X2-uh2" id="m3f-Xa-127"/>
+                        <outlet property="texto1" destination="aQI-zE-HBU" id="CwM-21-PHJ"/>
+                        <outlet property="texto2" destination="Ag4-1P-cHg" id="bAI-rb-rhY"/>
                         <outlet property="titulo" destination="JU8-Pg-RKz" id="Qkc-jB-n2m"/>
                     </connections>
                 </viewController>
@@ -3042,7 +3013,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="534" y="7830"/>
+            <point key="canvasLocation" x="671" y="7830"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mIO-Jk-bEu">
@@ -3584,8 +3555,14 @@
         <image name="CheltinFCSlide3Texto2" width="140" height="48"/>
         <image name="CheltinFCSlide3Texto3" width="150" height="50"/>
         <image name="CheltinFCSlide3Titulo" width="414" height="114"/>
+        <image name="CheltinFCSlide4Cal1" width="125" height="135"/>
+        <image name="CheltinFCSlide4Cal2" width="125" height="135"/>
+        <image name="CheltinFCSlide4Cal3" width="125" height="135"/>
+        <image name="CheltinFCSlide4Cal4" width="125" height="135"/>
         <image name="CheltinFCSlide4Fondo" width="1024" height="768"/>
-        <image name="CheltinFCSlide4Img" width="796" height="160"/>
+        <image name="CheltinFCSlide4Footer" width="517" height="91"/>
+        <image name="CheltinFCSlide4TextoImg1" width="126" height="20"/>
+        <image name="CheltinFCSlide4TextoImg2" width="68" height="19"/>
         <image name="CheltinFCSlide4Titulo" width="682" height="78"/>
         <image name="CheltinSlide1Btn" width="226" height="78"/>
         <image name="CheltinSlide1Fondo" width="1024" height="768"/>
@@ -3601,8 +3578,7 @@
         <image name="CheltinSlide3Center" width="526" height="247"/>
         <image name="CheltinSlide3Fondo" width="1024" height="768"/>
         <image name="CheltinSlide3Gotas" width="89" height="42"/>
-        <image name="CheltinSlide3Titulo" width="431" height="69"/>
-        <image name="CheltinSlide4Center" width="796" height="160"/>
+        <image name="CheltinSlide3Titulo" width="405" height="69"/>
         <image name="CheltinSlide4Titulo" width="682" height="78"/>
         <image name="CiriaxBtn" width="274" height="78"/>
         <image name="CiriaxLogo" width="115" height="43"/>
@@ -3733,24 +3709,28 @@
         <image name="prosinaSlide2Texto2" width="243" height="53"/>
         <image name="prosinaSlide2Texto3" width="226" height="43"/>
         <image name="prosinaSlide3Btn" width="964" height="89"/>
+        <image name="prosinaSlide3BtnSound" width="32" height="25"/>
+        <image name="prosinaSlide3FillBtn" width="313" height="68"/>
         <image name="prosinaSlide3Fondo" width="1024" height="768"/>
+        <image name="prosinaSlide3Producto" width="242" height="210"/>
         <image name="prosinaSlide3Texto1" width="365" height="87"/>
         <image name="prosinaSlide3Texto2" width="481" height="39"/>
         <image name="semaforo1" width="338" height="550"/>
         <image name="semaforo1Verde" width="338" height="152"/>
+        <image name="vimaxSlide1Btn" width="199" height="50"/>
         <image name="vimaxSlide1Fondo" width="1024" height="768"/>
-        <image name="vimaxSlide1Girl" width="60" height="58"/>
-        <image name="vimaxSlide1Man" width="60" height="58"/>
-        <image name="vimaxSlide1Nube1" width="255" height="79"/>
-        <image name="vimaxSlide1Nube2" width="253" height="81"/>
-        <image name="vimaxSlide1Texto1" width="123" height="18"/>
-        <image name="vimaxSlide1Texto2" width="119" height="18"/>
-        <image name="vimaxSlide3Btn1" width="228" height="48"/>
-        <image name="vimaxSlide3Btn2" width="228" height="48"/>
-        <image name="vimaxSlide3Fondo" width="1024" height="768"/>
-        <image name="vimaxSlide3Menta" width="147" height="134"/>
-        <image name="vimaxSlide3Producto" width="188" height="375"/>
-        <image name="vimaxSlide3Titulo" width="404" height="167"/>
+        <image name="vimaxSlide1Img1" width="86" height="75"/>
+        <image name="vimaxSlide1Img2" width="124" height="116"/>
+        <image name="vimaxSlide1Luz" width="375" height="333"/>
+        <image name="vimaxSlide1Not1" width="197" height="67"/>
+        <image name="vimaxSlide1Not2" width="197" height="67"/>
+        <image name="vimaxSlide1Not3" width="231" height="67"/>
+        <image name="vimaxSlide1Not4" width="197" height="67"/>
+        <image name="vimaxSlide1Notificacion" width="151" height="131"/>
+        <image name="vimaxSlide1Producto" width="153" height="275"/>
+        <image name="vimaxSlide1Texto1" width="184" height="67"/>
+        <image name="vimaxSlide1Texto2" width="237" height="92"/>
+        <image name="vimaxSlide1Titulo" width="368" height="135"/>
         <image name="vimaxSlide4Btn1" width="111" height="111"/>
         <image name="vimaxSlide4Btn2" width="111" height="111"/>
         <image name="vimaxSlide4Btn3" width="111" height="111"/>
@@ -3767,29 +3747,26 @@
         <image name="vimaxSlide7Fondo" width="1024" height="768"/>
         <image name="vimaxSlide8Btn" width="779" height="169"/>
         <image name="vimaxSlide8Fondo" width="1024" height="768"/>
-        <image name="vimaxSlide9Fondo" width="1024" height="768"/>
-        <image name="vimaxSlide9Img" width="810" height="274"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vnf-gk-anq"/>
-        <segue reference="7Af-WB-wS3"/>
-        <segue reference="2xf-EU-ZtQ"/>
-        <segue reference="y6c-VR-eNf"/>
-        <segue reference="aea-RG-ExO"/>
         <segue reference="nym-ut-TTl"/>
-        <segue reference="Zhq-2h-UwB"/>
-        <segue reference="Txw-0Q-wQd"/>
+        <segue reference="ncQ-5Y-CmP"/>
+        <segue reference="PY6-uZ-JJu"/>
+        <segue reference="qGa-F4-t0a"/>
+        <segue reference="aea-RG-ExO"/>
+        <segue reference="2xf-EU-ZtQ"/>
         <segue reference="2P1-nE-OuG"/>
-        <segue reference="XvU-7x-rmK"/>
         <segue reference="LUz-QV-H1r"/>
         <segue reference="3ju-rR-2bI"/>
-        <segue reference="Eu3-rC-Rud"/>
         <segue reference="p0E-hP-wu9"/>
-        <segue reference="ACj-n1-saL"/>
-        <segue reference="nEc-Dc-8fX"/>
-        <segue reference="O81-Rm-q96"/>
-        <segue reference="IIt-g9-28E"/>
+        <segue reference="Eu3-rC-Rud"/>
+        <segue reference="HEH-SO-cf5"/>
+        <segue reference="Uqc-yD-HPB"/>
+        <segue reference="1Y0-qP-i1W"/>
+        <segue reference="WAf-oJ-Z7p"/>
         <segue reference="Y6y-HK-2ut"/>
+        <segue reference="nnC-Lb-nYY"/>
+        <segue reference="O81-Rm-q96"/>
         <segue reference="hUp-Fg-Mxh"/>
     </inferredMetricsTieBreakers>
 </document>

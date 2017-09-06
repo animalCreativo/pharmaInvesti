@@ -8,6 +8,7 @@
 
 import UIKit
 import Spring
+import AVFoundation
 
 class ProductoPopViewController: UIViewController {
     @IBOutlet var btnExit: UIButton!
@@ -17,8 +18,38 @@ class ProductoPopViewController: UIViewController {
    
     @IBOutlet var img: SpringImageView!
     
+    @IBOutlet var imgSound: SpringImageView!
+    
+    @IBOutlet var soundicon: SpringImageView!
     @IBOutlet var botones: SpringImageView!
   
+    @IBOutlet var btnSound: UIButton!
+    
+    
+    var player: AVAudioPlayer?
+    
+    var a = true
+    @IBAction func btnSound(_ sender: Any) {
+        
+        if (a){
+            player?.play()
+            a = false
+        }else {
+            player!.stop()
+            a = true
+        }
+        
+    }
+    
+    @IBAction func btnExit(_ sender: Any) {
+        
+        if (!a){
+            player!.stop()
+            a = true
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,13 +57,37 @@ class ProductoPopViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
 
+        
+        guard let url = Bundle.main.url(forResource: "sonido", withExtension: "mp3") else {
+            print("url not found")
+            return
+        }
+        
+        
+        
+        do {
+            /// this codes for making this app ready to takeover the device audio
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            /// change fileTypeHint according to the type of your audio file (you can omit this)
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3)
+            
+            // no need for prepareToPlay because prepareToPlay is happen automatically when calling play()
+            //player!.play()
+        } catch let error as NSError {
+            print("error: \(error.localizedDescription)")
+        }
+        
+        
         slide()
 
     }
     
     func slide(){
         btnExit.isHidden    = true
-      
+        btnSound.isHidden    = true
+        
         texto1.opacity      = 0.0
         texto1.animation    = "animalPop"
         texto1.curve        = "easeIn"
@@ -61,7 +116,25 @@ class ProductoPopViewController: UIViewController {
         botones.duration     = 0.5
         botones.animate()
         
-        delay(delay:2.0){
+        
+        
+        imgSound.opacity      = 0.0
+        imgSound.animation    = "fadeInRight"
+        imgSound.curve        = "easeIn"
+        imgSound.delay        = 1.9
+        imgSound.duration     = 0.5
+        imgSound.animate()
+        
+        soundicon.opacity      = 0.0
+        soundicon.animation    = "pop"
+        soundicon.curve        = "easeIn"
+        soundicon.delay        = 2.4
+        soundicon.duration     = 0.5
+        soundicon.repeatCount  = Float.infinity
+        soundicon.animate()
+ 
+        delay(delay:3.0){
+            self.btnSound.isHidden = false
             self.btnExit.isHidden    = false
         }
         
