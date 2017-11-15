@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -2480,10 +2481,6 @@
                                 <rect key="frame" x="549" y="543" width="68" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4TextoImg1" translatesAutoresizingMaskIntoConstraints="NO" id="eHo-6J-abl" customClass="SpringImageView" customModule="Spring">
-                                <rect key="frame" x="346" y="543" width="126" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Cal4" translatesAutoresizingMaskIntoConstraints="NO" id="9da-YW-TOS" customClass="SpringImageView" customModule="Spring">
                                 <rect key="frame" x="694" y="322" width="126" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2504,7 +2501,7 @@
                                 <rect key="frame" x="135" y="322" width="126" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinFCSlide4Footer" translatesAutoresizingMaskIntoConstraints="NO" id="2h4-fG-Lb4" customClass="SpringImageView" customModule="Spring">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide4FooterBib" translatesAutoresizingMaskIntoConstraints="NO" id="2h4-fG-Lb4" customClass="SpringImageView" customModule="Spring">
                                 <rect key="frame" x="256" y="594" width="518" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2545,6 +2542,10 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide1Logo" translatesAutoresizingMaskIntoConstraints="NO" id="BiJ-zL-EwN" customClass="SpringImageView" customModule="Spring">
                                 <rect key="frame" x="806" y="43" width="172" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CheltinSlide4TextoImg1Bib" translatesAutoresizingMaskIntoConstraints="NO" id="eHo-6J-abl" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="353" y="543" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -3579,6 +3580,8 @@
         <image name="CheltinSlide3Fondo" width="1024" height="768"/>
         <image name="CheltinSlide3Gotas" width="89" height="42"/>
         <image name="CheltinSlide3Titulo" width="405" height="69"/>
+        <image name="CheltinSlide4FooterBib" width="517" height="91"/>
+        <image name="CheltinSlide4TextoImg1Bib" width="87" height="20"/>
         <image name="CheltinSlide4Titulo" width="682" height="78"/>
         <image name="CiriaxBtn" width="274" height="78"/>
         <image name="CiriaxLogo" width="115" height="43"/>
@@ -3749,24 +3752,24 @@
         <image name="vimaxSlide8Fondo" width="1024" height="768"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nym-ut-TTl"/>
+        <segue reference="2xf-EU-ZtQ"/>
         <segue reference="ncQ-5Y-CmP"/>
         <segue reference="PY6-uZ-JJu"/>
         <segue reference="qGa-F4-t0a"/>
-        <segue reference="aea-RG-ExO"/>
-        <segue reference="2xf-EU-ZtQ"/>
         <segue reference="2P1-nE-OuG"/>
-        <segue reference="LUz-QV-H1r"/>
-        <segue reference="3ju-rR-2bI"/>
+        <segue reference="nym-ut-TTl"/>
         <segue reference="p0E-hP-wu9"/>
         <segue reference="Eu3-rC-Rud"/>
+        <segue reference="3ju-rR-2bI"/>
+        <segue reference="LUz-QV-H1r"/>
+        <segue reference="jB6-cE-5mO"/>
+        <segue reference="Y6y-HK-2ut"/>
+        <segue reference="9TM-Kl-mpm"/>
+        <segue reference="1Y0-qP-i1W"/>
+        <segue reference="O81-Rm-q96"/>
         <segue reference="HEH-SO-cf5"/>
         <segue reference="Uqc-yD-HPB"/>
-        <segue reference="1Y0-qP-i1W"/>
         <segue reference="WAf-oJ-Z7p"/>
-        <segue reference="Y6y-HK-2ut"/>
-        <segue reference="nnC-Lb-nYY"/>
-        <segue reference="O81-Rm-q96"/>
         <segue reference="hUp-Fg-Mxh"/>
     </inferredMetricsTieBreakers>
 </document>
